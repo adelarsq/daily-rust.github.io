@@ -6,4 +6,3 @@ title: Notes about Software Development
 # Adelar S. Queiróz
 
 
-- Notes.
