@@ -3,7 +3,7 @@ layout: default
 title: Daily notes about Rust language
 ---
 
-# [Daily Rust](http://daily-rust.github.io)
+# [Daily Rust](http://daily-rust.github.io) :sparkles::sunrise::registered::sparkles: 
 
-![](/static/daily_rust_logo_33x33.png) Daily notes about Rust language.
+Daily notes about Rust language.
 
