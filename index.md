@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Notes about Software Development
+title: Daily notes about Rust language
 ---
 
-# Adelar S. Queiróz
+# Daily Rust
 
 
