@@ -1,2 +1,2 @@
-# adelarsq.github.io
+# daily-rust.github.io
 blog
