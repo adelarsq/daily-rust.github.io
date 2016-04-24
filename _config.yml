@@ -3,3 +3,6 @@ url: http://daily-rust.github.io/
 title: "Daily Rust: Daily notes about the Rust language"
 author: "Adelar da Silva Queiróz"
 excerpt_separator: <!--more-->
+
+gems:
+  - jemoji
