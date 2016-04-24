@@ -1,2 +1,3 @@
-# daily-rust.github.io
-blog
+# Daily Rust
+
+Blog with daily posts about the [Rust language](https://www.rust-lang.org/). 
