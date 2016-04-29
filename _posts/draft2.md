@@ -91,28 +91,36 @@ Use the find_str method.
 
 let str = "Hello, this is some random string";
 let index: Option<uint> = str.find_str("rand");
-4 Containers
 
-4.1 How do I get the length of a vector?
+## 4 Containers
+
+### 4.1 How do I get the length of a vector?
 The Container trait provides the len method.
 
+```rust
 let u: ~[u32] = ~[0, 1, 2];
 let v: &[u32] = &[0, 1, 2, 3];
 let w: [u32, .. 5] = [0, 1, 2, 3, 4];
 
 println!("u: {}, v: {}, w: {}", u.len(), v.len(), w.len()); // 3, 4, 5
-4.2 How do I iterate over a vector?
+```
+
+### 4.2 How do I iterate over a vector?
 Use the iter method.
 
+```rust
 let values: ~[int] = ~[1, 2, 3, 4, 5];
 for value in values.iter() {  // value: &int
     println!("{}", *value);
 }
+```
 (See also mut_iter which yields &mut int and move_iter which yields int while consuming the values vector.)
 
-5 Type system
+## 5 Type system
 
-5.1 How do I store a function in a struct?
+### 5.1 How do I store a function in a struct?
+
+```rust
 struct Foo {
     myfunc: fn(int, uint) -> i32
 }
@@ -131,15 +139,20 @@ fn main() {
     println!("{}", (f.myfunc)(1, 2));
     println!("{}", (g.myfunc)(3, 4));
 }
+```
 Note that the parenthesis surrounding f.myfunc are necessary: they are how Rust disambiguates field lookup and method call. The 'a on FooClosure is the lifetime of the closure's environment pointer.
 
-5.2 How do I express phantom types?
+### 5.2 How do I express phantom types?
 Phantom types are those that cannot be constructed at compile time. To express these in Rust, zero-variant enums can be used:
 
+```rust
 enum Open {}
 enum Closed {}
+````
+
 Phantom types are useful for enforcing state at compile time. For example:
 
+```rust
 struct Door<State>(~str);
 
 struct Open;
@@ -154,12 +167,16 @@ fn open(Door(name): Door<Closed>) -> Door<Open> {
 }
 
 let _ = close(Door::<Open>(~"front"));
+```
 Attempting to close a closed door is prevented statically:
 
+```rust
 let _ = close(Door::<Closed>(~"front")); // error: mismatched types: expected `main::Door<main::Open>` but found `main::Door<main::Closed>`
-6 FFI (Foreign Function Interface)
+````
 
-6.1 C function signature conversions
+## 6 FFI (Foreign Function Interface)
+
+### 6.1 C function signature conversions
 Description	C signature	Equivalent Rust signature
 no parameters	void foo(void);	fn foo();
 return value	int foo(void);	fn foo() -> c_int;
@@ -167,20 +184,26 @@ function parameters	void foo(int x, int y);	fn foo(x: int, y: int);
 in-out pointers	void foo(const int* in_ptr, int* out_ptr);	fn foo(in_ptr: *c_int, out_ptr: *mut c_int);
 Note: The Rust signatures should be wrapped in an extern "ABI" { ... } block.
 
-6.1.1 Representing opaque handles
+#### 6.1.1 Representing opaque handles
 You might see things like this in C APIs:
 
+```rust
 typedef struct Window Window;
 Window* createWindow(int width, int height);
+```
+
 You can use a zero-element enum (phantom type) to represent the opaque object handle. The FFI would look like this:
 
+```rust
 enum Window {}
 extern "C" {
     fn createWindow(width: c_int, height: c_int) -> *Window;
 }
+```
+
 Using a phantom type ensures that the handles cannot be (safely) constructed in client code.
 
-7 Contributing to this page
+## 7 Contributing to this page
 
 For small examples, have full type annotations, as much as is reasonable, to keep it clear what, exactly, everything is doing. Try to link to the API docs, as well.
 
