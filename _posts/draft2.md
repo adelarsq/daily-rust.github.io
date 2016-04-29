@@ -184,7 +184,7 @@ return value | int foo(void); | fn foo() -> c_int;
 function parameters | void foo(int x, int y); | fn foo(x: int, y: int);
 in-out pointers | void foo(const int* in_ptr, int* out_ptr); | fn foo(in_ptr: *c_int, out_ptr: *mut c_int);
 
-Note: The Rust signatures should be wrapped in an extern "ABI" { ... } block.
+Note: The Rust signatures should be wrapped in an ```extern "ABI" { ... }``` block.
 
 #### 6.1.1 Representing opaque handles
 You might see things like this in C APIs:
