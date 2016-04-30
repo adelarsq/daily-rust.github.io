@@ -22,6 +22,8 @@ This language exposes lower level concepts, since generate machine dependent bin
 
 Also has a growing number of tools. You can do [almost anything](https://github.com/kud1ing/awesome-rust), since [Web](https://github.com/kud1ing/awesome-rust#web-programming) stuff until [Operating Systems](https://github.com/kud1ing/awesome-rust#operating-systems).
 
+It's a pretty new language (1.0 released on [May 15, 2015](http://blog.rust-lang.org/2015/05/15/Rust-1.0.html)), but is already been used in [many companies](https://www.rust-lang.org/friends.html) in production enviroment.
+
 This is how the code looks like:
 
 ```rust
