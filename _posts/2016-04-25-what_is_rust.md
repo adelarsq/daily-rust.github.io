@@ -7,7 +7,7 @@ tags: [rustposts, rust]
 
 [Rust](https://www.rust-lang.org/index.html) is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
 
-This language exposes lower level concepts, since generate machine dependent binaries, but try to maintain many high level features:
+This language exposes lower level concepts with many high level features:
 
 - zero-cost abstractions
 - move semantics
