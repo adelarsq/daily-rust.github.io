@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Primitive Types"
+title: "📜 Primitive Types"
 index_title: "Primitive Types"
 tags: [rustposts, rust]
 ---
