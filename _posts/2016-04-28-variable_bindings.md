@@ -2,7 +2,7 @@
 layout: post
 title: "📜 Variable Bindings"
 index_title: "Variable Bindings"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 
