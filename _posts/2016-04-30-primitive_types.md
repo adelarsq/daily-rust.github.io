@@ -2,7 +2,7 @@
 layout: post
 title: "📜 Primitive Types"
 index_title: "Primitive Types"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 ### Booleans
