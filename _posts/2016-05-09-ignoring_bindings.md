@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ignoring bindings"
+title: "📜 Ignoring bindings"
 index_title: "Ignoring bindings"
 tags: [rustposts, rust]
 ---
