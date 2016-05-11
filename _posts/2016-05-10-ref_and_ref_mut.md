@@ -2,7 +2,7 @@
 layout: post
 title: "📜 ref and ref mut"
 index_title: "ref and ref mut"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 The ```ref``` keyword is used to get references.
