@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ref and ref mut"
+title: "📜 ref and ref mut"
 index_title: "ref and ref mut"
 tags: [rustposts, rust]
 ---
