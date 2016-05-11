@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Destructuring"
+title: "📜 Destructuring"
 index_title: "Destructuring"
 tags: [rustposts, rust]
 ---
