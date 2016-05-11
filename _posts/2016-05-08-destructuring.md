@@ -2,7 +2,7 @@
 layout: post
 title: "📜 Destructuring"
 index_title: "Destructuring"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 If you have a compound data type, like a struct, you can destructure it inside of a pattern:
