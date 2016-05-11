@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello World"
+title: "📜 Hello World"
 index_title: "Hello World"
 tags: [rustposts, rust]
 ---
