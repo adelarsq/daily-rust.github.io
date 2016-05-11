@@ -2,7 +2,7 @@
 layout: post
 title: "📜 Hello World"
 index_title: "Hello World"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 This is the source code of the traditional Hello World program.
