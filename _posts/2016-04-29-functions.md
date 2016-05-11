@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Functions"
+title: "📜 Functions"
 index_title: "Functions"
 tags: [rustposts, rust]
 ---
