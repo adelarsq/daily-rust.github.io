@@ -3,7 +3,7 @@ layout: default
 title: Daily notes about Rust language
 ---
 
-# [Daily Rust](http://daily-rust.github.io)
+# [Daily Rust](http://daily-rust.github.io) ✨ 🌇 ® ✨
 
 Daily notes about [Rust language](https://www.rust-lang.org).
 
