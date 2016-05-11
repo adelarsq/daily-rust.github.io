@@ -2,7 +2,7 @@
 layout: post
 title: "📜 Functions"
 index_title: "Functions"
-tags: [rustposts, rust]
+tags: [rustposts, rust, beginner]
 ---
 
 Every Rust program has at least one function, the main function:
