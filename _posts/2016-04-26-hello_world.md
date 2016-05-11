@@ -16,3 +16,11 @@ fn main() {
     println!("Hello World!");
 }
 ```
+
+Comments start with ```//```. See more on the follow [post](http://daily-rust.github.io/2016/04/27/comments.html)
+
+```fn```is the keyword used to declare a functions.
+
+```println``` is a [macro](https://doc.rust-lang.org/book/macros.html). Macros allow us to abstract at a syntactic level, that allows avoid repeated code.
+
+Strings are between ```"```.
