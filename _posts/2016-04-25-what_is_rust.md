@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Rust?"
+title: "📜 What is Rust?"
 index_title: "What is Rust?"
 tags: [rustposts, rust]
 ---
