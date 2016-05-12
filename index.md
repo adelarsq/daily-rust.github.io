@@ -3,7 +3,7 @@ layout: default
 title: Daily notes about Rust language
 ---
 
-# [Daily Rust](http://daily-rust.github.io) ✨ 🌇 ® ✨
+# [Daily Rust](http://daily-rust.github.io)
 
 Daily notes about [Rust language](https://www.rust-lang.org).
 
@@ -17,7 +17,7 @@ Rust is a modern systems programming language focusing on safety, speed, and con
   {% endfor %}
 </ul>
 
-🍼 **Beginner:**
+**Beginner:**
 
 <ul class="posts">
   {% for post in site.posts reversed %}
@@ -27,7 +27,7 @@ Rust is a modern systems programming language focusing on safety, speed, and con
   {% endfor %}
 </ul>
 
-🍹 **Intermediate:**
+**Intermediate:**
 
 <ul class="posts">
   {% for post in site.posts reversed %}
@@ -37,7 +37,7 @@ Rust is a modern systems programming language focusing on safety, speed, and con
   {% endfor %}
 </ul>
 
-🍷 **Advanced:**
+**Advanced:**
 
 <ul class="posts">
   {% for post in site.posts reversed %}
