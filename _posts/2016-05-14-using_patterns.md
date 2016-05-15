@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "📜 Mixed Patterns"
-index_title: "Mixed Patterns"
+title: "📜 Using Patterns"
+index_title: "Using Patterns"
 tags: [rustposts, rust, beginner]
 
 There are many way to match patterns and it's possible even mix then:
