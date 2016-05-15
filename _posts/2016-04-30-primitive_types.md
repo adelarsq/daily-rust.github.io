@@ -48,6 +48,10 @@ let middle = &a[1..4]; // A slice of a: only the elements 1, 2, and 3
 
 Rust’s str type is the most primitive string type. As an unsized type, it’s not very useful by itself, but becomes useful when placed behind a reference, like &str.
 
+```rust
+let s: &str = "Hello";
+```
+
 ### Tuples
 
 ```rust
