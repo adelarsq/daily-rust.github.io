@@ -54,4 +54,5 @@ fn main() {
 
 ##Resources on the Web
 
+* [Rust by Example](http://rustbyexample.com/)
 * [Roseta code examples](https://rosettacode.org/wiki/Category:Rust)
