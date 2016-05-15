@@ -95,8 +95,10 @@ for line in reader.lines() {
 3.1 How do I search for a substring?
 Use the find_str method.
 
+```rust
 let str = "Hello, this is some random string";
 let index: Option<uint> = str.find_str("rand");
+```
 
 ## 4 Containers
 
@@ -120,6 +122,7 @@ for value in values.iter() {  // value: &int
     println!("{}", *value);
 }
 ```
+
 (See also mut_iter which yields &mut int and move_iter which yields int while consuming the values vector.)
 
 ## 5 Type system
@@ -146,6 +149,7 @@ fn main() {
     println!("{}", (g.myfunc)(3, 4));
 }
 ```
+
 Note that the parenthesis surrounding f.myfunc are necessary: they are how Rust disambiguates field lookup and method call. The 'a on FooClosure is the lifetime of the closure's environment pointer.
 
 ### 5.2 How do I express phantom types?
@@ -174,6 +178,7 @@ fn open(Door(name): Door<Closed>) -> Door<Open> {
 
 let _ = close(Door::<Open>(~"front"));
 ```
+
 Attempting to close a closed door is prevented statically:
 
 ```rust
@@ -183,6 +188,7 @@ let _ = close(Door::<Closed>(~"front")); // error: mismatched types: expected `m
 ## 6 FFI (Foreign Function Interface)
 
 ### 6.1 C function signature conversions
+
 Description	| C signature |	Equivalent Rust signature
 ----------- | ----------- | -------------------------
 no parameters | ```void foo(void);``` | ```fn foo();```
