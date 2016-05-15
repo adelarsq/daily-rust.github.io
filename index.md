@@ -17,6 +17,16 @@ Rust is a modern systems programming language focusing on safety, speed, and con
   {% endfor %}
 </ul>
 
+**Articles:**
+
+<ul class="posts">
+  {% for post in site.posts reversed %}
+    {% if post.tags contains "article" %}
+    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.index_title }}</a> ({{ post.date | date_to_string }})</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
 **Beginner:**
 
 <ul class="posts">
