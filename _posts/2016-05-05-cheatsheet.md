@@ -71,17 +71,20 @@ let y: i64 = x.unwrap();
 
 ## 2 File operations
 
-### 2.1 How do I read from a file?
+### 2.1 How do I read from a file? (Rust 1.8)
 
-Use File::open to create a File struct, which implements the Reader trait.
+Use File::open.
 
 ```rust
+use std::io::{BufReader,BufRead};
+use std::fs::File;
 use std::path::Path;
-use std::io::fs::File;
 
-let path : Path   = Path::new("Doc-FAQ-Cheatsheet.md");
-let on_error      = || fail!("open of {:?} failed", path);
-let reader : File = File::open(&path).unwrap_or_else(on_error);
+let path = Path::new("file_test.txt");
+let file = BufReader::new(File::open(&path).unwrap());
+for line in file.lines() {
+    print!("{}", line.unwrap());
+}
 ```
 
 ### 2.2 How do I iterate over the lines in a file?
