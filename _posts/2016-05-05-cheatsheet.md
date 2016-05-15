@@ -25,6 +25,7 @@ tags: [rustposts, rust, article]
 - 7 Contributing to this page
 
 Based on: http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html
+Converting to Rust 1.8.
 
 ## 1 How do I convert X to Y?
 
