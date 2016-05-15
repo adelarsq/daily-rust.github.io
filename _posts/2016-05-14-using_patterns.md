@@ -3,6 +3,7 @@ layout: post
 title: "📜 Using Patterns"
 index_title: "Using Patterns"
 tags: [rustposts, rust, beginner]
+---
 
 There are many way to match patterns and it's possible even mix then:
 
