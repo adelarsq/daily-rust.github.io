@@ -28,7 +28,7 @@ Based on: http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html
 
 ## 1 How do I convert X to Y?
 
-**Int to string**
+**Int to string (Rust 1.8)**
 Use ToStr.
 
 ```rust
@@ -37,13 +37,13 @@ let s: String = x.to_string();
 let ss1: &str = &s;   // specifying type is necessary for deref coercion to fire
 let ss2 = &s[..];     // alternatively, use slicing syntax
 ```
-**String to int**
+**String to int (Rust 1.8)**
 
 Use FromStr, and its helper function, from_str.
 
 ```rust
-let x: Option<int> = from_str("42");
-let y: int = x.unwrap();
+let x: Option<i32> = "42".trim().parse().ok(); 
+let y:i32 = x.unwrap();
 ```
 
 **Int to string, in non-base-10**
