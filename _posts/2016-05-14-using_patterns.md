@@ -2,8 +2,10 @@
 layout: post
 title: "📜 Using Patterns"
 index_title: "Using Patterns"
-tags: [rustposts, rust, beginner]
+tags: [rustposts, rust, intermediate]
 ---
+
+## Mix
 
 There are many ways to match patterns and it's possible even mix then:
 
@@ -12,6 +14,10 @@ match x {
     Foo { x: Some(ref name), y: None } => ...
 }
 ```
+
+## Expression and statement-oriented
+
+Unlike many languages that offer pattern matching, Rust embraces both statement- and expression-oriented programming.
 
 This function maps a non-negative integer to a string rendering it as an ordinal (“1st”, “2nd”, “3rd”, …):
 
