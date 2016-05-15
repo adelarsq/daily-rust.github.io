@@ -1,3 +1,8 @@
+---
+layout: post
+title: "📜 Cheatsheet"
+index_title: "Cheatsheet"
+tags: [rustposts, rust, article]
 
 # Rust Cheatsheet
 
