@@ -5,7 +5,7 @@ index_title: "Using Patterns"
 tags: [rustposts, rust, beginner]
 ---
 
-There are many way to match patterns and it's possible even mix then:
+There are many ways to match patterns and it's possible even mix then:
 
 ```rust
 match x {
