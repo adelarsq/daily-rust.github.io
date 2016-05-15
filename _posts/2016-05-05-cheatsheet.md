@@ -32,8 +32,10 @@ Based on: http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html
 Use ToStr.
 
 ```rust
-let x: int = 42;
-let y: ~str = x.to_str();
+let x: i32 = 42;
+let s: String = x.to_string();
+let ss1: &str = &s;   // specifying type is necessary for deref coercion to fire
+let ss2 = &s[..];     // alternatively, use slicing syntax
 ```
 **String to int**
 
