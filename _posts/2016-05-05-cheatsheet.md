@@ -24,7 +24,7 @@ tags: [rustposts, rust, article]
 - 6.1.1 Representing opaque handles
 - 7 Contributing to this page
 
-Based on: http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html
+Based on: [http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html](http://static.rust-lang.org/doc/0.9/complement-cheatsheet.html)
 
 Converting to Rust 1.8.
 
