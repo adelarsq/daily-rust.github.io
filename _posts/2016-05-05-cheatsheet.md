@@ -42,7 +42,7 @@ let ss2 = &s[..];     // alternatively, use slicing syntax
 ```
 **String to int (Rust 1.8)**
 
-Use FromStr, and its helper function, from_str.
+Use ```parse()``` and ```unwrap()```.
 
 ```rust
 let x: Option<i32> = "42".trim().parse().ok(); 
@@ -72,6 +72,7 @@ let y: i64 = x.unwrap();
 ## 2 File operations
 
 ### 2.1 How do I read from a file?
+
 Use File::open to create a File struct, which implements the Reader trait.
 
 ```rust
@@ -84,6 +85,7 @@ let reader : File = File::open(&path).unwrap_or_else(on_error);
 ```
 
 ### 2.2 How do I iterate over the lines in a file?
+
 Use the lines method on a BufferedReader.
 
 ```rust
@@ -108,6 +110,7 @@ let index: Option<uint> = str.find_str("rand");
 ## 4 Containers
 
 ### 4.1 How do I get the length of a vector?
+
 The Container trait provides the len method.
 
 ```rust
@@ -228,4 +231,4 @@ For small examples, have full type annotations, as much as is reasonable, to kee
 
 Similar documents for other programming languages:
 
-http://pleac.sourceforge.net/
+[http://pleac.sourceforge.net](http://pleac.sourceforge.net)
