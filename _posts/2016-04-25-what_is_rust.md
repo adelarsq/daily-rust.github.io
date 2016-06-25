@@ -2,7 +2,7 @@
 layout: post
 title: "📜 What is Rust?"
 index_title: "What is Rust?"
-tags: [rustposts, rust, beginner]
+tags: [rustposts, rust, article]
 ---
 
 [Rust](https://www.rust-lang.org/index.html) is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
