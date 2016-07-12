@@ -6,26 +6,21 @@ tags: [rustposts, rust, algorithm]
 ---
 
 ```rust
-use std;
-
-import std::io;
-
-fn fibonacci(x: int) -> int {
-  if (x <= 2) {
-    ret 1;
-  } else {
-    ret fibonacci(x - 1) + fibonacci(x - 2);
-  }
+fn fibonacci(x: i32) -> i32 {
+    if x <= 2 {
+        return 1;
+    } else {
+        return fibonacci(x - 1) + fibonacci(x - 2);
+    }
 }
 
 fn main() {
-  let i = 1;
-  let v: Vec<_> = vec![1,2,3];
+    let mut i: i32 = 1;
 
-  while i <= 16 {
-    io::print(#fmt("%d, ", fibonacci(i)));
-    i = i + 1;
-  }
-  io::println("...");
+    while i <= 16 {
+        println!("{}, ", fibonacci(i));
+        i = i + 1;
+    }
+    println!("...");
 }
 ```
