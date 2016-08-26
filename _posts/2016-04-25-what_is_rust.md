@@ -27,7 +27,6 @@ It's a pretty new language. First appeared in 2010 ([first commit](https://githu
 This is how the code looks like:
 
 ```rust
-// This code is editable and runnable!
 fn main() {
     // A simple integer calculator:
     // `+` or `-` means add or subtract by 1
