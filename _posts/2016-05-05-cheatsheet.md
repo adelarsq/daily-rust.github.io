@@ -7,6 +7,8 @@ tags: [rustposts, rust, article]
 
 # Rust Cheatsheet
 
+Note: This is a work in progress.
+
 - 1 How do I convert X to Y?
 - 2 File operations
 - 2.1 How do I read from a file?
