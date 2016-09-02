@@ -18,7 +18,7 @@ This language exposes lower level concepts but using high level features like:
 - type inference
 - minimal runtime
 - efficient C bindings
-- **it's fun!** 😄
+- **it's fun!** 🎉
 
 Also has a growing number of tools. You can do [almost anything](https://github.com/kud1ing/awesome-rust), since [Web](https://github.com/kud1ing/awesome-rust#web-programming) stuff until [Operating Systems](https://github.com/kud1ing/awesome-rust#operating-systems).
 
