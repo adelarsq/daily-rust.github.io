@@ -39,4 +39,5 @@ Rust is a modern systems programming language focusing on safety, speed, and con
 
 **Books:**
 
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [The Embedded Rust Book](https://rust-embedded.github.io/book/intro/index.html)
