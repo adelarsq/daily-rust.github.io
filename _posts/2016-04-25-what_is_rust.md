@@ -22,7 +22,7 @@ This language exposes lower level concepts but using high level features like:
 
 Also has a growing number of tools. You can do [almost anything](https://github.com/kud1ing/awesome-rust), since [Web](https://github.com/kud1ing/awesome-rust#web-programming) stuff until [Operating Systems](https://github.com/kud1ing/awesome-rust#operating-systems).
 
-It's a pretty new language. First appeared in 2010 ([first commit](https://github.com/rust-lang/rust/commit/c01efc669f09508b55eced32d3c88702578a7c3e)) and the 1.0 release was at [May 15, 2015](http://blog.rust-lang.org/2015/05/15/Rust-1.0.html)). Even so is already been used in [many companies](https://www.rust-lang.org/friends.html) in production enviroment.
+It's a pretty new language. First appeared in 2010 ([first commit](https://github.com/rust-lang/rust/commit/c01efc669f09508b55eced32d3c88702578a7c3e)) and the 1.0 release was at [May 15, 2015](http://blog.rust-lang.org/2015/05/15/Rust-1.0.html)). Even so is already been used in [many companies](https://www.rust-lang.org/friends.html) ([1](https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine), [2](https://msrc-blog.microsoft.com/2019/11/07/using-rust-in-windows/), [3](https://blog.discord.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f)) in production enviroment.
 
 This is how the code looks like:
 
