@@ -27,6 +27,11 @@ Rust is a modern systems programming language focusing on safety, speed, and con
   {% endfor %}
 </ul>
 
+**Resources:**
+
+- [rustlings](https://github.com/rust-lang/rustlings)
+- [RustVids](https://rustvids.github.io)
+
 **Algorithms:**
 
 <ul class="posts">
